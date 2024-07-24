@@ -1,0 +1,26 @@
+
+/* Reset default list styles */
+ul {
+list-style: none; /* Removes default bullets */
+padding: 0; /* Removes default padding */
+margin: 0; /* Removes default margin */
+}
+
+/* Style list items */
+ul li {
+padding: 10px 0; /* Adjust padding as needed */
+margin-bottom: 5px; /* Adjust margin between items */
+border-bottom: 1px solid #ccc; /* Adds a separating line between items */
+}
+
+/* Style links inside list items */
+ul li a {
+text-decoration: none; /* Removes underline */
+color: #333; /* Sets link color */
+}
+
+/* Hover effect for links */
+ul li a:hover {
+color: #555;
+}
+
